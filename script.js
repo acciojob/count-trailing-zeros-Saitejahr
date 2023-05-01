@@ -5,7 +5,7 @@ function trailingZeros(n) {
      
     // Initialize result
     let count = 0;
- 
+
     // Keep dividing n by powers of
     // 5 and update count
     for (let i = 5; Math.floor(n / i) >= 1; i *= 5)
